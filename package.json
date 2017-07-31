@@ -1,6 +1,6 @@
 {
   "name": "template-next",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scaffold out a Next.js project.",
   "repository": {
     "url": "egoist/template-next",
