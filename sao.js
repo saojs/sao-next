@@ -38,7 +38,7 @@ module.exports = {
     'pages/index-*.js': 'pages/index.js'
   },
   filters: {
-    'pages/_document': 'emotion',
+    'pages/_document.js': 'emotion',
     'pages/index-default.js': '!emotion',
     'pages/index-emotion.js': 'emotion'
   },

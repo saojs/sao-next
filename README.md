@@ -1,6 +1,16 @@
-# template-next
+<h1 align="center">template-next</h1>
 
-> Scaffold out a Next.js project.
+<p align="center">
+  Scaffolding out a Next.js project.
+</p>
+
+<p align="center">
+<a href="https://npmjs.com/package/template-next"><img src="https://img.shields.io/npm/v/template-next.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/template-next"><img src="https://img.shields.io/npm/dm/template-next.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/egoist/template-next"><img src="https://img.shields.io/circleci/project/egoist/template-next/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a>
+</p>
+
+<p align="center">
+  <img src="https://i.loli.net/2017/07/31/597f1c2895349.png" alt="preview" width="600">
+</p>
 
 ## Features
 
