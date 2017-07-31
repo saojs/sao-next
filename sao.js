@@ -14,6 +14,7 @@ module.exports = {
       message: 'Use emotion (CSS-in-JS)',
       type: 'confirm',
       default: true,
+      store: true
     },
     username: {
       message: 'What is your GitHub username?',
