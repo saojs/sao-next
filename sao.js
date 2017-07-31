@@ -42,7 +42,17 @@ module.exports = {
     'pages/index-default.js': '!emotion',
     'pages/index-emotion.js': 'emotion'
   },
-  showTip: true,
   gitInit: true,
-  installDependencies: true
+  installDependencies: true,
+  post({ log, isNewFolder, folderName, chalk }) {
+    console.log()
+    log.success(`Successfully generated into ${chalk.cyan(folderName)}`)
+    console.log()
+    console.log(chalk.bold('To get started:\n'))
+    if (isNewFolder) {
+      console.log(`  cd ${folderName}`)
+    }
+    console.log('  yarn dev')
+    console.log()
+  }
 }
