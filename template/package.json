@@ -9,7 +9,7 @@
   },
   "dependencies": {<% if (emotion) { %>
     "emotion": "^7.0.0",<% } %>
-    "next": "beta",
+    "next": "^3.2.1",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   }
