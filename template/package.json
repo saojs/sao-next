@@ -8,9 +8,12 @@
     "build": "next build"
   },
   "dependencies": {<% if (emotion) { %>
-    "emotion": "^7.0.0",<% } %>
-    "next": "^3.2.1",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "emotion": "^8.0.9",
+    "babel-plugin-emotion": "^8.0.9",
+    "react-emotion": "^8.0.9",
+    "emotion-server": "^8.0.9",<% } %>
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }

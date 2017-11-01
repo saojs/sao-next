@@ -13,7 +13,7 @@ module.exports = {
     emotion: {
       message: 'Use emotion (CSS-in-JS)',
       type: 'confirm',
-      default: true,
+      default: false,
       store: true
     },
     username: {

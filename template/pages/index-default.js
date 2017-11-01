@@ -1,3 +1,3 @@
 export default () => (
-  <h1>Hello SAO & Next!</h1>
+  <h1>Hello SAO & Next.js!</h1>
 )
