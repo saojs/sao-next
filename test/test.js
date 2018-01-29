@@ -8,16 +8,16 @@ test('defaults', async t => {
   const stream = await sao.mockPrompt(template)
   t.snapshot(stream.fileList, 'generated files')
 
-  const content = stream.fileContents('pages/index.js')
-  t.snapshot(content, 'content of index.js')
+  t.snapshot(stream.fileContents('pages/index.js'), 'content of index.js')
+  t.snapshot(stream.fileContents('.babelrc'), '.babelrc')
 })
 
-test('no emotion', async t => {
+test('add emotion', async t => {
   const stream = await sao.mockPrompt(template, {
-    emotion: false
+    emotion: true
   })
   t.snapshot(stream.fileList, 'generated files')
 
-  const content = stream.fileContents('pages/index.js')
-  t.snapshot(content, 'content of index.js')
+  t.snapshot(stream.fileContents('pages/index.js'), 'content of index.js')
+  t.snapshot(stream.fileContents('.babelrc'), '.babelrc')
 })
