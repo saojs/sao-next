@@ -7,12 +7,12 @@ module.exports = {
     return [
       {
         name: 'name',
-        message: 'What is the name of the new project?',
+        message: 'What is the name of the new project',
         default: this.outFolder
       },
       {
         name: 'description',
-        message: 'How would you descripe the new project?',
+        message: 'How would you descripe the new project',
         default: `my ${superb()} project`
       },
       {
@@ -24,20 +24,20 @@ module.exports = {
       },
       {
         name: 'username',
-        message: 'What is your GitHub username?',
+        message: 'What is your GitHub username',
         default: this.gitUser.username || this.gitUser.name,
         filter: v => v.toLowerCase(),
         store: true
       },
       {
         name: 'email',
-        message: 'What is your GitHub email?',
+        message: 'What is your GitHub email',
         default: this.gitUser.email,
         store: true
       },
       {
         name: 'website',
-        message: 'The URL of your website?',
+        message: 'The URL of your website',
         default({ username }) {
           return `github.com/${username}`
         },
