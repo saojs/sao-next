@@ -1,6 +1,6 @@
 {
   "name": "sao-next",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Scaffold out a Next.js project.",
   "repository": {
     "url": "saojs/sao-next",
