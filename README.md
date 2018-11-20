@@ -1,11 +1,11 @@
-<h1 align="center">template-next</h1>
+<h1 align="center">sao-next</h1>
 
 <p align="center">
   Scaffolding out a Next.js project.
 </p>
 
 <p align="center">
-<a href="https://npmjs.com/package/template-next"><img src="https://img.shields.io/npm/v/template-next.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/template-next"><img src="https://img.shields.io/npm/dm/template-next.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/egoist/template-next"><img src="https://img.shields.io/circleci/project/egoist/template-next/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a>
+<a href="https://npmjs.com/package/sao-next"><img src="https://img.shields.io/npm/v/sao-next.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/sao-next"><img src="https://img.shields.io/npm/dm/sao-next.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/saojs/sao-next"><img src="https://img.shields.io/circleci/project/saojs/sao-next/master.svg?style=flat" alt="Build Status"></a> <a href="https://github.com/egoist/donate"><img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat" alt="donate"></a>
 </p>
 
 <p align="center">
@@ -15,7 +15,8 @@
 ## Features
 
 - [Next.js](https://github.com/zeit/next.js)
-- [Emotion](https://github.com/tkh44/emotion) (CSS-in-JS) support
+- Optional [Emotion](https://github.com/tkh44/emotion) (CSS-in-JS) support
+- Deploy to [ZEIT Now](https://zeit.co)
 
 ## Usage
 
@@ -36,7 +37,7 @@ sao next my-project
 ### From git
 
 ```bash
-sao egoist/template-next my-project
+sao saojs/sao-next my-project
 ```
 
 ## License
