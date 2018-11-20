@@ -20,7 +20,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>SAO & Next.js</title>
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </Head>
         <body>
